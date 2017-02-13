@@ -724,6 +724,8 @@ Coin = function () {
               0, -5]);
 
   this.collidesWith = ["ship"];
+  this.color = 'yellow';
+  this.solid = 'true';
 
   this.newPosition = function () {
     this.x = Math.random() * Game.canvasWidth;
@@ -733,6 +735,15 @@ Coin = function () {
   this.newValue = function () {
     this.value = Math.floor(Math.random() * 10 + 1) * 10;
   }
+
+//Me pretending I know how to code
+//I'm basically adding a yellow color to the coin
+// AND THIS WAS WRONG
+//this.color = function (){
+ // this.color = 'yellow';
+//}
+
+
 
   this.setup = function () {
     this.newPosition();
