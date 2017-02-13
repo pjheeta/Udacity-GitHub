@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    This was a great way to see the difference between text files.  I was able to between both files what items were added and what item were removed 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Incase I screwed something up in the past, this would help me track down where I fucked up
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Google Docs automatic commits could be bad.  as someone else could look at your code that google atomatically commited, and it may be wrong, and incomplete.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In programming, you work with multiple files.   You may forget to upload one
+
+How can you use the commands git log and git diff to view the history of files?
+
+	GitLog will give me a summary of the change I made
+	GifDiff, similar to FC or Diff -u command.  Tells you the difference in the code ad it will also show you the differences of added/deleted lines of code
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    cause I can track ALLL data cahnges
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    MY Blockcahin startup
+
+
+
+    
