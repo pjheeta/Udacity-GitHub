@@ -690,7 +690,7 @@ Asteroid = function () {
   this.collidesWith = ["ship", "bullet", "bigalien", "alienbullet"];
 
   this.breakIntoFragments = function () {
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 2; i++) {
       var roid = $.extend(true, {}, this);
       roid.vel.x = Math.random() * 6 - 3;
       roid.vel.y = Math.random() * 6 - 3;
@@ -708,7 +708,11 @@ Asteroid = function () {
     if (other.name == "bullet") Game.score += 120 / this.scale;
     this.scale /= 3;
     if (this.scale > 0.5) {
+
       this.breakIntoFragments();
+
+
+//I've broken the Asteroids up into 2 pieces instead of three
     }
     Game.explosionAt(other.x, other.y);
     this.die();
